@@ -3,14 +3,14 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
     font-family: 'Playfair Display', serif;
 }
-.task-1 ul {
+ ul {
     text-align: center;
 }
 
-.task-1 ul li {
+header nav ul li {
     display: inline-block;
     font-size: 32;
     padding: 15px;
@@ -18,42 +18,29 @@
     cursor: pointer;
 }
 
-.task-1 ul li:hover {
+header nav ul li:hover {
     text-decoration: underline;
 }
- .task-2 .card .task-3 .card{
-     width: 470;
-     margin: 0 auto;
+ .task-1  {
+     width: 420px;
+     height: 420px;
+     margin: 30px;
      padding: 20px;
-     border: 1px solid;
- }
- .task-2 .img .task-3 .img{
-     width: 474px;
-     height: 316px;
- }
- .task-2 .category .task-3 .category{
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 300;
-    margin: 30px 0;
-    text-transform: uppercase;
+     display: inline-block;
+     }
+ 
+.task-2 {
+    width: 420px;
+     height: 420px;
+     margin: 30px;
+     padding: 20px;
+     display: inline-block;
 }
-
-.task-2 h2 .task-3 h3 {
-    font-size: 30px;
-    font-weight: 400;
-    margin: 30px 0;
-}
-.task-2 .description .task-3 .description {
-    font-size: 16px;
-    text-align: left;
-
-}
+ 
 .task-3 {
-    margin-top: 50px;
+    width: 420px;
+     height: 420px;
+     margin: 30px;
+     padding: 20px;
+     display: inline-block;
 }
- .task-3 div .card{
-    display: inline-block;
-    
-}
-
-
