@@ -95,6 +95,10 @@ img {
   padding: 18px 60px;
   width: 420px;
   cursor: pointer;
+  
 }
-
+.task-2:hover,
+.task-2:focus {
+  color:  rgb(11, 54, 247)
+}
 
