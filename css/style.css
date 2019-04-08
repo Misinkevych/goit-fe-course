@@ -14,91 +14,121 @@ body {
   line-height: 16px;
 }
 
-img {
+.test {
   display: block;
+  
+  
   width: 420px;
   height: 282px;
+ 
+}
+.test {
+margin: 0;
+margin-bottom: 20px;
 }
 
 .container {
-  width: 1200px;
+  width: 900px;
   margin: 0 auto;
 }
 .page-nav {
   padding: 76px 0;
 }
 .site-navigation {
+  display: inline-block;
+  vertical-align: middle;
+  width: 900px;
   margin: 0;
   padding: 0;
-  font-size: 14px;
+  font-size: 0;
   list-style: none;
   text-align: center;
-  margin-bottom: 102px;
 }
 .site-navigation li {
   display: inline-block;
 }
 
 .site-navigation li:not(:last-child) {
-  margin-right: 120px;
+  margin-right: 60px;
 }
 
 .site-navigation a {
+  display: block;
   color: rgba(98, 98, 98, 255);
-  font-weight: 90;
+  font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
   line-height: 16px;
 }
-
+.site-navigation li a {
+  font-size: 14px;
+}
 .site-navigation a:hover,
 .site-navigation a:focus {
   color: rgb(11, 54, 247);
 }
 
 /* Артикл колонки */
+.text {
+  font-size: 0px;
+}
 .text-list {
   display: inline-block;
   list-style: none;
   width: 420px;
-  margin:0 112px;
-
-  margin-bottom: 130px;
-  padding: 0;
+  margin-right: 60px;
+  
   text-align: left;
   line-height: 24px;
 }
 .text-list:nth-child(2n) {
-  margin: 0;
+  margin: 0px;
 }
 
 .task {
-  line-height: 58px;
+  line-height: 18px;
   font-size: 14px;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 .text-list h2 {
-  margin-bottom: ;
+  margin-bottom: 64px;
   line-height: 20px;
   font-size: 30px;
 }
 .text-list p {
   font-size: 14px;
+  
   margin-bottom: 124px;
 }
+.box {
 
-.task-2 {
-  border: 1 solid;
-  margin: 80px 390px;
-  padding: 18px 60px;
-  width: 420px;
-  cursor: pointer;
-  
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.tiem {
+  margin: 0;
 }
 .task-2:hover,
 .task-2:focus {
-  color:  rgb(11, 54, 247)
+  color: rgb(11, 54, 247);
+}
+.task-2 {
+width: 420px;
+  
+  
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 24px;
+  color: #626262;
+  background-color: #ffffff;
+  font-family: ;
+  border: 1px solid#626262;
+  padding: 25px 35px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
