@@ -16,15 +16,13 @@ body {
 
 .test {
   display: block;
-  
-  
+
   width: 420px;
   height: 282px;
- 
 }
 .test {
-margin: 0;
-margin-bottom: 20px;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 .container {
@@ -35,7 +33,7 @@ margin-bottom: 20px;
   padding: 76px 0;
 }
 .site-navigation {
-  display: inline-block;
+  display: block;
   vertical-align: middle;
   width: 900px;
   margin: 0;
@@ -77,7 +75,7 @@ margin-bottom: 20px;
   list-style: none;
   width: 420px;
   margin-right: 60px;
-  
+
   text-align: left;
   line-height: 24px;
 }
@@ -86,49 +84,40 @@ margin-bottom: 20px;
 }
 
 .task {
-  line-height: 18px;
+  margin: 0;
   font-size: 14px;
+  font-family: "Ubuntu", sans-serif;
   text-transform: uppercase;
   text-decoration: none;
 }
+.task {
+  margin-bottom: 90px;
+}
 
-.text-list h2 {
-  margin-bottom: 64px;
-  line-height: 20px;
-  font-size: 30px;
-}
-.text-list p {
-  font-size: 14px;
-  
-  margin-bottom: 124px;
-}
 .box {
-
   margin: 0;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
+  font-size: 30px;
 }
 
 .tiem {
   margin: 0;
+  font-size: 14px;
+  margin-bottom: 70px;
 }
 .task-2:hover,
 .task-2:focus {
+  background-color: #626262;
   color: rgb(11, 54, 247);
 }
 .task-2 {
-width: 420px;
-  
-  
+  width: 420px;
   cursor: pointer;
   font-size: 20px;
-  line-height: 24px;
-  color: #626262;
-  background-color: #ffffff;
   font-family: ;
   border: 1px solid#626262;
   padding: 25px 35px;
   display: block;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
-
