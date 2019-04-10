@@ -70,6 +70,9 @@ body {
 .text {
   font-size: 0px;
 }
+.text {
+  padding-bottom: 70px;
+}
 .text-list {
   display: inline-block;
   list-style: none;
@@ -81,6 +84,9 @@ body {
 }
 .text-list:nth-child(2n) {
   margin: 0px;
+}
+.text-list {
+  margin-bottom: 75px;
 }
 
 .task {
@@ -103,7 +109,7 @@ body {
 .tiem {
   margin: 0;
   font-size: 14px;
-  margin-bottom: 75px;
+  
 }
 .task-2:hover,
 .task-2:focus {
@@ -111,12 +117,13 @@ body {
   color:  rgba(98, 98, 98, 255);
 }
 .task-2 {
-  width: 420px;
+  width: 200px;
+
   cursor: pointer;
   font-size: 20px;
   border: 1px solid#626262;
   padding: 21px 34px;
   display: block;
   margin: 0 auto;
-  margin-bottom: 92px;
+  
 }
