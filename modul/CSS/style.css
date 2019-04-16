@@ -87,6 +87,7 @@ img {
   height: auto;
   margin: 0;
   padding: 0;
+  
 }
 .page {
   height: 100px;
@@ -94,28 +95,26 @@ img {
   padding: 0;
   font-size: 48px;
   text-align: center;
+  position: relative;
   
 }
 .text::after {
   content: "";
   width: 164px;
   height: 7px;
+  margin-bottom: 50px;
   background-color: #1abc9c;
-
   position: absolute;
   left: 50%;
   right: 50%;
-  
-  display: block;
-  
-  
-  text-align: center;
+  transform: translate(-50%, -50%);
+
 }
 
   /* Секції */
 .team {
-  margin-top: 100px;
-  margin-bottom: 120px;
+  margin: 0;
+  padding: 0;
 
 }
   .foto {
@@ -129,10 +128,22 @@ img {
 }
 .foto {
   float: left;
-  margin-right: 30px;
-  margin-bottom: 30px;
+  width: 255px;
+  margin-right: 10px;
+  margin-bottom: 10px
+ ;
+}
+.foto:nth-child(4n) {
+margin-right: 0px;
+
+
 }
 
+.copy {
+  width: 255px;
+  height: 322px;
+  background-color: #e9f0fd;
+}
 
 .but {
   float: left;
@@ -152,16 +163,96 @@ img {
   background-color: #8c8c8c;
 }
 
-.icone::before {
-  content: "";
-  display: block;
-  width: 255px;
-  height: 300px;
-  background-color: red;
-
-
-  background-image: 
+.but {
+  font-size: 18pt;
+  color: rgba(255, 255, 255, 255);
+  text-align: left;
 }
+
+.bat {
+  font-size: 18pt;
+color: rgba(255, 255, 255, 255);
+text-align: center;
+}
+  
+
+.but:hover,
+ .but:focus {
+  background-color: rgba(26, 188, 156, 255);
+  cursor: pointer;
+}
+
+ .bat:hover,
+ .bat:focus {
+  background-color: rgba(26, 188, 156, 255);
+  cursor: pointer;
+} 
+.bold {
+height: auto;
+margin: 0;
+padding: 0;
+}
+.page-nav {
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  font-size: 48px;
+  text-align: center;
+  position: relative;
+}
+
+  .bold::after {
+  content: "";
+  width: 164px;
+  height: 7px;
+  margin-bottom: 50px;
+  background-color: #1abc9c;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+
+   }
+/* артикли секції */
+ .team-2 {
+   margin: 0;
+   padding: 0;
+ }
+
+.foty {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.foty {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.foty {
+  float: left;;
+  width: 250px;
+  height: 520px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.load {
+  ;
+  width: 159px;
+  height: 51px;
+  margin: 0;
+  padding: 0;
+  background-color: green;
+}
+
+
+
+
+
+
+
+
 
 
 
