@@ -1,0 +1,242 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #6c7279;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.page-nav {
+  padding: 38px 0;
+}
+.site-logo::first-letter {
+  color: #1abc9c;
+}
+.site-logo {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  text-transform: uppercase;
+  list-style: none;
+}
+.site-logo {
+  float: left;
+}
+.site-navigation {
+  float: right;
+  margin: 0;
+
+  padding: 0;
+  font-size: 14px;
+  color: rgba(26, 188, 156, 255);
+  list-style: none;
+}
+.site-navigation li {
+  float: left;
+}
+
+.site-navigation li:not(:last-child) {
+  margin-right: 30px;
+}
+.site-navigation a {
+  display: block;
+  color: rgba(81, 81, 81, 255);
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: rgba(26, 188, 156, 255);
+}
+
+.page-nav {
+  padding: 100px;
+}
+
+
+/* заголовок */
+.text {
+  
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+.page {
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  font-size: 48px;
+  text-align: center;
+  
+}
+.text::after {
+  content: "";
+  width: 164px;
+  height: 7px;
+  background-color: #1abc9c;
+
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  
+  display: block;
+  
+  
+  text-align: center;
+}
+
+  /* Секції */
+.team {
+  margin-top: 100px;
+  margin-bottom: 120px;
+
+}
+  .foto {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+ 
+.foto {
+  margin-bottom: 400px;
+}
+.foto {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+
+.but {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background-color: #323232;
+}
+
+.bat {
+  float: left;
+  width: 55px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background-color: #8c8c8c;
+}
+
+.icone::before {
+  content: "";
+  display: block;
+  width: 255px;
+  height: 300px;
+  background-color: red;
+
+
+  background-image: 
+}
+
+
+
+
+
+
+/* .team {
+  float: left;
+  width: 255px;
+ height: auto;
+ margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.team {
+  margin-bottom: 0;
+} */
+/* .text::after {
+  content: "";
+  width: 164px;
+  height: 7px;
+  background-color: #1abc9c;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+} */
+
+
+/* низ колонки */
+/* .las {
+  margin: 0;
+  padding: 0;
+}
+.but {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background-color: #323232;
+}
+.bat {
+  float: left;
+  width: 55px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background-color: #8c8c8c;
+}
+.but {
+  font-size: 18pt;
+  color: rgba(255, 255, 255, 255);
+  text-align: left;
+}
+.bat {
+  font-size: 18pt;
+color: rgba(255, 255, 255, 255);
+text-align: center;
+}
+
+ .but:hover,
+ .but:focus {
+  background-color: rgba(26, 188, 156, 255);
+  cursor: pointer;
+}
+
+ .bat:hover,
+ .bat:focus {
+  background-color: rgba(26, 188, 156, 255);
+  cursor: pointer;
+} */
+
+
+
+
+
