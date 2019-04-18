@@ -34,15 +34,13 @@ img {
 
 
 .page-header{
-  width: 467px;
+  width: 1110px;
   height: auto;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   text-align: center;
 }
-.page-header {
 
-}
 
 .page-nav {
   margin: 0 auto;
@@ -63,10 +61,7 @@ img {
 float: left;
  
 }
-.site-logo {
-  margin-left: 30px;
-  
-}
+
 
 .site-navigation {
   float: right;
@@ -107,14 +102,17 @@ float: left;
 .text {
   
   width: 800px;
-  height: auto;
+  height: 80;
   margin: 0 auto;
   font-size: 48px;
   text-align: center;
+  line-height: 32px;
   position: relative;
   
 }
-
+ .text {
+   margin-top: 105px;
+ }
 .text::after {
   content: "";
   width: 164px;
@@ -127,40 +125,38 @@ float: left;
   transform: translate(-50%, -50%);
 
 }
-
+.text {
+  margin-bottom: 153px;
+}
   /* Секції */
 .team {
-  width: 1170px;
+  width: 1110px;
   height: auto;
   margin: 0 auto;
   
 
 }
-.team {
-  margin-top: 100px;
-  
-}
+
 .team {
   margin-bottom: 700px;
 }
   .foto {
     width: 255px;
-    height: auto;
-    margin: 0;
+    height: 362px;
+    margin: 0 auto;
     padding: 0;
     list-style: none;
   }
  
-.foto {
-  margin-bottom: 400px;
-}
+
 .foto {
   float: left;
-  width: 255px;
-  margin-right: 10px;
-  margin-bottom: 10px
- ;
+  
+  margin-right: 30px;
+  margin-bottom: 15px;
+ margin-top: 15px;
 }
+
 .foto:nth-child(4n) {
 margin-right: 0px;
 
@@ -172,22 +168,29 @@ margin-right: 0px;
   height: 322px;
   background-color: #e9f0fd;
 }
-
+.icone {
+  width: 255px;
+  height: 40px;
+  margin: 0;
+ padding: 0;
+ margin-bottom: 30px;
+}
 .but {
   float: left;
   width: 200px;
-  height: auto;
+  height: 40px;
   margin: 0;
-  padding: 0;
+  padding: 8px 20px 8px 8px;
+  
   background-color: #323232;
 }
 
 .bat {
   float: left;
   width: 55px;
-  height: auto;
+  height: 40px;
   margin: 0;
-  padding: 0;
+  padding: 8px 10px 2px 2px;
   background-color: #8c8c8c;
 }
 
@@ -215,16 +218,17 @@ text-align: center;
   background-color: rgba(26, 188, 156, 255);
   cursor: pointer;
 } 
-
-.icone {
-  margin-bottom: 100px;
-}
+ .red {
+   margin-bottom: 105px;
+ }
 
 .team-2 {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+  margin-top: 105px;
 }
 
+  
 
 
 .bold {
@@ -235,7 +239,9 @@ font-size: 48px;
 text-align: center;
 position: relative;
 }
-
+.bold {
+  margin-top: 105px;
+}
 
 .bold::after {
   content: "";
@@ -252,12 +258,14 @@ position: relative;
 /* артикли секції */
  
 .foty {
-  list-style: none;
-  margin: 0;
+  width: 472px;
+  height: 313px;
+  margin: 0 auto;
   padding: 0;
+  list-style: none;
 }
 .foty {
-  margin-top: 150px;
+  margin-top: 120px;
   margin-bottom: 100px;
 }
 
@@ -274,18 +282,21 @@ position: relative;
  
   position: relative;
 }
+.linear {
+  margin-bottom: 40px;
+}
 
 .linear::after {
   content: "";
-  width: 80px;
-  height: 5px;
+  width: 136px;
+  height: 3px;
   margin-bottom: 50px;
   background-color: #1abc9c;
   position: absolute;
   
 }
 .lorem {
-  margin-top: 50px;
+ margin-bottom: 16px;
 }
 .load {
   
@@ -293,7 +304,9 @@ position: relative;
   height: 51px;
   margin: 0;
   padding: 0;
-  background-color: green;
+  background-color: #4ec6ab;
+  border: none;
+  color: #edf8f5
   
 }
 
