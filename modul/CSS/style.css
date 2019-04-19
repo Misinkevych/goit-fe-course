@@ -34,8 +34,9 @@ img {
 
 
 .page-header{
-  width: 1110px;
-  height: auto;
+  /* width: 1110px;  /Тут ми забрали width: 1110px;  тому що ширина є в контейнері
+
+  height: auto;    /height: auto; */
   margin: 0 auto;
   padding: 0;
   text-align: center;
@@ -99,7 +100,7 @@ float: left;
 
 
 /* заголовок */
-.text {
+.page {
   
   width: 800px;
   height: 80;
@@ -107,26 +108,23 @@ float: left;
   font-size: 48px;
   text-align: center;
   line-height: 32px;
-  position: relative;
+  margin-bottom: 120px;
+ 
   
 }
- .text {
-   margin-top: 105px;
- }
-.text::after {
+ 
+.page::after {
+  margin: 0 auto;
   content: "";
   width: 164px;
   height: 7px;
-  
   background-color: #1abc9c;
-  position: absolute;
-  left: 50%;
-  right: 50%;
-  transform: translate(-50%, -50%);
-
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 .text {
-  margin-bottom: 153px;
+  
 }
   /* Секції */
 .team {
@@ -138,7 +136,7 @@ float: left;
 }
 
 .team {
-  margin-bottom: 700px;
+ padding-bottom: 844px;
 }
   .foto {
     width: 255px;
@@ -146,22 +144,29 @@ float: left;
     margin: 0 auto;
     padding: 0;
     list-style: none;
+    margin-right: 30px;
+    margin-bottom: 30px;
   }
  
 
 .foto {
   float: left;
   
-  margin-right: 30px;
-  margin-bottom: 15px;
- margin-top: 15px;
 }
 
-.foto:nth-child(4n) {
-margin-right: 0px;
-
+.foto:nth-child(5n) {
+margin-right: 0;
 
 }
+.foto:last-child {
+  margin-right: 0;
+}
+
+
+.foto:nth-child(n+5) {
+  margin-bottom: 0;
+}
+
 
 .copy {
   width: 255px;
@@ -219,15 +224,16 @@ text-align: center;
   cursor: pointer;
 } 
  
-.red {
-  margin-bottom: 105px;
-}
+
 .team-2 {
   margin: 0 auto;
   padding: 0;
-  margin-top: 105px;
+  padding-bottom: 658px;
 }
 
+.team-2 {
+  
+}
   
 
 
@@ -238,22 +244,20 @@ margin: 0 auto;
 padding: 0;
 font-size: 48px;
 text-align: center;
-position: relative;
+margin-bottom: 114px;
+
 }
-.bold {
-  margin-top: 30px;
-}
+
 
 .bold::after {
   content: "";
   width: 164px;
   height: 7px;
-  
+
   background-color: #1abc9c;
-  position: absolute;
-  left: 50%;
-  right: 50%;
-  transform: translate(-50%, -50%);
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
 
    }
 /* артикли секції */
@@ -265,40 +269,36 @@ position: relative;
   padding: 0;
   list-style: none;
 }
-.foty {
-  margin-top: 120px;
 
-}
 
 .foty {
   float: left;;
   margin-right: 30px;
 
 }
-.foty {
-  
+.foty:nth-child(4n) {
+  margin-right: 0;
 }
+
 .linear {
   width: 300px;
   height: auto;
- 
-  position: relative;
 }
-.linear {
-  margin-bottom: 40px;
-}
+
+
 
 .linear::after {
   content: "";
   width: 136px;
   height: 3px;
-  margin-bottom: 50px;
+  
   background-color: #1abc9c;
-  position: absolute;
+  display: block;
+  margin-top: 14px;
   
 }
 .lorem {
- margin-bottom: 16px;
+padding-bottom: 16px;
 }
 .load {
   
@@ -311,15 +311,10 @@ position: relative;
   color: #edf8f5
   
 }
-.load {
-  margin-bottom: 50px;
-}
-.load:hover,
-.load:focus {
+
+a .load:hover,
+a .load:focus {
  cursor: pointer;
-}
-.foty:nth-child(4n) {
-  margin-right: 0;
 }
 
 
