@@ -49,7 +49,7 @@ img {
 .site-logo::first-letter {
   color: #1abc9c;
 }
-.site-logo {
+a .site-logo {
   margin: 0;
   padding: 0;
   font-size: 30px;
@@ -58,9 +58,16 @@ img {
   text-transform: uppercase;
   list-style: none;
 }
-.site-logo {
+a .site-logo {
   float: left;
 }
+
+a .site-logo:hover,
+a .site-logo:focus {
+  cursor: pointer;
+}
+
+
 
 .site-navigation {
   float: right;
@@ -99,8 +106,8 @@ img {
 
 /* заголовок */
 .page {
-  width: 800px;
-  height: 80;
+  /* width: 800px;
+  height: 80; */
   margin: 0 auto;
   font-size: 48px;
   font-family: "Roboto", serif;
@@ -123,14 +130,14 @@ img {
 .text {
 }
 /* Секції */
-.team {
+/* .team {
   width: 1110px;
   height: auto;
   margin: 0 auto;
-}
+} */
 
 .team {
-  padding-bottom: 844px;
+  padding-bottom: 105px;
 }
 .foto {
   width: 255px;
@@ -212,7 +219,7 @@ img {
 .team-2 {
   margin: 0 auto;
   padding: 0;
-  padding-bottom: 658px;
+  padding-bottom: 100px;
 }
 
 .bold {
@@ -241,7 +248,7 @@ img {
 
 .foty {
   width: 350px;
-  height: 313px;
+  /* height: 313px; */
   margin: 0 auto;
   padding: 0;
   list-style: none;
@@ -256,11 +263,11 @@ img {
 }
 
 .linear {
-  width: 300px;
-  height: auto;
+ margin: 0;
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
   color: rgba(85, 82, 82, 255);
+  margin-bottom: 30px;
 }
 
 .linear::after {
@@ -270,92 +277,35 @@ img {
 
   background-color: #1abc9c;
   display: block;
-  margin-top: 14px;
+  margin-top: 11px;
+  
 }
 .lorem {
+  margin: 0;
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
   color: rgba(85, 82, 82, 255);
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 .load {
+  display: block;
   width: 159px;
   height: 51px;
   margin: 0;
-  padding: 0;
+  padding: 15px 42px 18px 43px;
+  text-decoration: none;
+
+  font-size: 14px;
+  font-family:'Open Sans', sans-serif;
+  text-align: center;
+
   background-color: #4ec6ab;
   border: none;
   color: #edf8f5;
 }
 
-a .load:hover,
-a .load:focus {
+ .load:hover,
+.load:focus {
   cursor: pointer;
 }
 
-/* .team {
-  float: left;
-  width: 255px;
- height: auto;
- margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: center;
-}
-
-.team {
-  margin-bottom: 0;
-} */
-/* .text::after {
-  content: "";
-  width: 164px;
-  height: 7px;
-  background-color: #1abc9c;
-  display: block;
-  margin: 0 auto;
-  margin-top: 20px;
-} */
-
-/* низ колонки */
-/* .las {
-  margin: 0;
-  padding: 0;
-}
-.but {
-  float: left;
-  width: 200px;
-  height: auto;
-  margin: 0;
-  padding: 0;
-  background-color: #323232;
-}
-.bat {
-  float: left;
-  width: 55px;
-  height: auto;
-  margin: 0;
-  padding: 0;
-  background-color: #8c8c8c;
-}
-.but {
-  font-size: 18pt;
-  color: rgba(255, 255, 255, 255);
-  text-align: left;
-}
-.bat {
-  font-size: 18pt;
-color: rgba(255, 255, 255, 255);
-text-align: center;
-}
-
- .but:hover,
- .but:focus {
-  background-color: rgba(26, 188, 156, 255);
-  cursor: pointer;
-}
-
- .bat:hover,
- .bat:focus {
-  background-color: rgba(26, 188, 156, 255);
-  cursor: pointer;
-} */
