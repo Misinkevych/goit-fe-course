@@ -48,17 +48,19 @@ img {
 
 .site-logo::first-letter {
   color: #1abc9c;
+  font-weight: 700;
 }
-a .site-logo {
+.site-logo {
   margin: 0;
   padding: 0;
+  font-family:"Roboto", sans-serif;
+  font-weight: 300;
   font-size: 30px;
-  font-family:"Roboto", serif;
-  color: rgba#555252;
+  color: rgba #656262;
   text-transform: uppercase;
   list-style: none;
 }
-a .site-logo {
+a {
   float: left;
 }
 
@@ -77,7 +79,8 @@ a .site-logo:focus {
   padding: 0;
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
-  color: rgba(26, 188, 156, 255);
+  font-weight: 300;
+  color: #0f0101;
   list-style: none;
 }
 .site-navigation li {
@@ -111,7 +114,8 @@ a .site-logo:focus {
   margin: 0 auto;
   font-size: 48px;
   font-family: "Roboto", serif;
-  color: rgba(81, 81, 81, 255);
+  font-weight: 700;
+  color: #515151);
   text-align: center;
   line-height: 32px;
   margin-bottom: 120px;
@@ -183,6 +187,7 @@ a .site-logo:focus {
   padding: 8px 20px 8px 8px;
   font-size: 18pt;
   font-family: "Roboto", serif;
+  font-weight: 700;
   color: rgba(255, 255, 255, 255);
   text-align: left;
   background-color: #323232;
@@ -195,7 +200,9 @@ a .site-logo:focus {
   margin: 0;
   padding: 8px 10px 2px 2px;
   font-size: 18pt;
+ 
   font-family: "Roboto", serif;
+  font-weight: 700;
   color: rgba(255, 255, 255, 255);
   text-align: center;
   background-color: #8c8c8c;
@@ -204,15 +211,15 @@ a .site-logo:focus {
 
 
 
-.but:hover,
-.but:focus {
+.foto:hover .but,
+.foto:focus .but{
   background-color: rgba(26, 188, 156, 255);
   cursor: pointer;
 }
 
-.bat:hover,
-.bat:focus {
-  background-color: rgba(26, 188, 156, 255);
+.foto:hover .bat,
+.foto:focus .bat{
+  background-color:  #7fd9c7;
   cursor: pointer;
 }
 
@@ -229,7 +236,8 @@ a .site-logo:focus {
   padding: 0;
   font-size: 48px;
   font-family:"Roboto", serif;
-  color: rgba(85, 82, 82, 255);
+  font-weight: 700;
+  color: #515151;
   text-align: center;
   margin-bottom: 114px;
 }
@@ -266,6 +274,7 @@ a .site-logo:focus {
  margin: 0;
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
   color: rgba(85, 82, 82, 255);
   margin-bottom: 30px;
 }
@@ -284,7 +293,8 @@ a .site-logo:focus {
   margin: 0;
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
-  color: rgba(85, 82, 82, 255);
+  font-weight: 300;
+  color: #555252;
   margin-bottom: 16px;
 }
 .load {
