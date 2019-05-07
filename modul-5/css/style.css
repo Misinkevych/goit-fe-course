@@ -265,7 +265,7 @@ text-align: left;
   top: 0;
   left: 0;
   width: 255px;
-  height: 322px;
+  height: 285px;
   background-color: rgba(0,0,0,.75);;
   border: 6px seashell solid;
   position: absolute;
@@ -368,10 +368,15 @@ background-position-y: 11px;
 }
 
 .icone {
+  position: absolute;
+  top: 285px;
+  left: 0;
   width: 255px;
   height: 40px;
   margin: 0;
   padding: 0;
+
+ 
 }
 
 .icone-p1 {
