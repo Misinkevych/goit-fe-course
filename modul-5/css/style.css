@@ -12,7 +12,7 @@ html {
   body {
     min-width: 1110px;
     font-family: "Roboto", sans-serif;
-    /* color: #6c7279; */
+    color: #555252;
     font-size: 14px;
     line-height: 21px;
     /* background-color: #e9f0fd;
@@ -68,7 +68,7 @@ html {
     font-family:"Roboto", sans-serif;
     font-weight: 300;
     font-size: 30px;
-    color: rgba #656262;
+    color: rgba #555252;
     text-transform: uppercase;
     list-style: none;
   }
@@ -135,19 +135,16 @@ html {
 .baner-cntrl {
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(50%, 50%)
+  transform: translateY(-50%);
   border: none;
   display: inline-block;
   width: 104px;
   height: 104px;
   background-color: #539f8c;
-  
   font-size: 80px;
   color: rgba(255, 255, 255, 255);
   text-align: center;
-  
-}
+  }
 .prev {
  background-image: url(../img/@1Xb1.png);
   background-repeat: no-repeat;
@@ -314,7 +311,98 @@ padding-bottom: 100px;
 
 
 
-.team-list {
+
+
+
+
+.wrapper-button {
+  margin: 0;
+  padding: 0;
+  width: 255px;
+  height: 285px;
+  display: inline-block;
+ 
+
+}
+
+.button {
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0,0,0,0.1);
+  top: 90px;
+  left: 45px;
+  border: 2px solid white;
+  transform: translate(45px, 90px);
+ 
+}
+
+.button-1 {
+  background-image: url(../img/@1X1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.button-2 {
+  background-image: url(../img/@1X2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.button-3 {
+  background-image: url(../img/@1X3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.item {
+  background-image: url(../img/@1X.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-x: 10px;
+  background-position-y: 11px;
+}
+
+
+
+.button-4 {
+
+  margin: 0;
+  padding: 0;
+  width: 158px;
+  height: 50px;
+  top: 90px;
+  left: 45px;
+  transform: translate(45px, 90px);
+  border: 2px solid white;
+  background-color: #323232;;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #f4f4f4;
+  padding-left: 40px;
+  /* padding-top: 8px; */
+}
+
+.button-1:hover,
+.button-1:focus{
+  background-color:  #1abc9c;
+  cursor: pointer;
+}
+.button-2:hover,
+.button-2:focus{
+  background-color:  #1abc9c;
+  cursor: pointer;
+}
+.button-3:hover,
+.button-3:focus{
+  background-color:  #1abc9c;
+  cursor: pointer;
+}
+.item:hover,
+.item:focus{
+  background-color:  #1abc9c;
+  cursor: pointer;
+}
+/* .team-list {
   margin: 0;
   padding: 0;
 }
@@ -401,7 +489,7 @@ background-position-y: 11px;
 .team-list .item:hover:focus .icon-4 {
   background-color: #1abc9c;
   cursor: pointer;
-}
+} */
 
 .icone {
   position: absolute;
