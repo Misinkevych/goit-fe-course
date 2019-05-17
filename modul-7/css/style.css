@@ -1,0 +1,278 @@
+html {
+    box-sizing: border-box;
+  }
+
+
+  *,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+body {
+    min-width: 1110px;
+    font-family: "Roboto", sans-serif;
+    color: #555252;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .container {
+    width: 1180px;
+    margin: 0 auto;
+  }
+  
+
+  /* MENU */
+
+  .page-header {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+  }
+
+  .page-nav {
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+    color: #fed44c;
+  }
+  
+
+  .site-logo {
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    list-style: none;
+  }
+
+  a .site-logo:hover,
+a .site-logo:focus {
+  cursor: pointer;
+}
+
+.site-navigation {
+    display: flex;
+    justify-content: space-between;
+    min-width: 500px;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    list-style: none;
+    
+  }
+
+  .site-navigation a {
+    display: block;
+    color: #222222;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+   
+  }
+
+
+  .site-navigation a:hover,
+.site-navigation a:focus {
+  color: #fed44c;
+  cursor: pointer;
+}
+/* 
+SECTION */
+.features {
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 136px;
+   
+  }
+
+
+  .features_title {
+    font-family: "Kaushan Script", cursive;
+    margin: 0 auto;
+    font-size: 24pt;
+    color: rgba(51, 51, 51, 255);
+    text-align: center;
+  }
+
+
+  .span_title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30pt;
+    color: rgba(51, 51, 51, 255);
+    text-align: center;
+    margin-top: 22px;
+  }
+
+
+  .features-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .features-list-item {
+    flex: 0 0 370px;
+  
+    margin-bottom: 100px;
+    padding: 0 38px;
+    /* text-align: center; */
+  }
+
+
+  .border-list {
+      margin: 0 auto;
+      width: 68px;
+      height: 68px;
+      border: 2px solid sandybrown;
+      border-radius: 50%;
+  }
+
+  .features-list-item h3 {
+    margin: 0;
+    text-align: center;
+    /* margin-left: 30px; */
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+  }
+
+
+  .features-list-item p {
+    margin: 0;
+    text-align: left;
+    margin-left: 30px;
+    font-family: "Roboto", sans-serif;
+
+    /* зробити абзац */
+  }
+
+
+  .icon-tools {
+      background-image: url(..//img/Icon-Basket@1X.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      
+  }
+
+
+
+  /* Section-2 */
+
+  .features-team {
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 100px;
+    /* padding-top: 100px; */
+    height: 800px;
+   background-color: #222222;
+   background-size: cover;
+   /* background-image: url(..//img/Map\ Image@1X\ \(1\).png); */
+  }
+
+
+  .features_title_team {
+    font-family: "Kaushan Script", cursive;
+    margin: 0 auto;
+    font-size: 24pt;
+    color: rgba(51, 51, 51, 255);
+    text-align: center;
+  }
+  
+  .span_title_team {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30pt;
+    color: rgba(51, 51, 51, 255);
+    text-align: center;
+    margin-top: 22px;
+  }
+
+
+  .images {
+    margin: 0;
+    width: 600px;
+    height: 500px;
+    left: 800px;
+    transform: translateX(800px);
+
+    background-image: url(..//img/Map\ Image@1X\ \(1\).png);
+   
+  }
+
+
+  /* .user {
+    margin: 0 auto;
+    width: 450px;
+    height: 50px;
+  } */
+
+
+
+  .input-form {
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .form {
+    flex: 0 0 500px;
+    height: 210px;
+    top: 300px;
+    left: 300px;
+    transform: translate(300px, -300px);
+  }
+
+
+
+  /* .user-1 {
+    width: 500px;
+    height: 100px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  } */
+
+
+  .user {
+    width: 500px;
+    height: 80px;
+  }
+
+
+  .user input {
+    padding: 10px;
+  }
+  
+
+  textarea {
+    padding: 12px;
+    top: 240px;
+    left: 450px;
+    transform: translate(450px, -240px)
+  }
+.submit {
+  margin: 0 auto;
+  padding: 20px 100px;
+  top: 200px;
+  left: 300px;
+  transform: translate(300px, -200px)
+  
+  
+  
+}
