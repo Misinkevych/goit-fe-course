@@ -312,7 +312,7 @@ SECTION */
 .section-input {
   position: relative;
   height: 700px;
-  background-color: red;
+  background-color: #222222;
   background-size: cover;
   
  
@@ -335,7 +335,7 @@ SECTION */
   margin: 0 auto;
   width: 940px;
   height: 317px;
-  background-color: green;
+  background-color: #222222;
   top: 256px;
   left: 200px;
   transform: translate(200px, )
@@ -343,14 +343,13 @@ SECTION */
 .input {
   width: 455px;
   height: 55px;
- 
   padding: 10px;
   margin:0;
  /* margin-right: 30px; */
  margin-bottom: 30px;
-
+outline: none;
   
-  /* outline: red; */
+  
   
 }
 
@@ -358,31 +357,52 @@ SECTION */
   margin-bottom: 0;
 }
 
-.input {
-  border: 1px solid red;
+
+
+
+.valide:valid{
+  border-color: green;
+  
+  
 }
 
-.input:focus {
-  outline-color: green;
-  border: none;
+.valide:invalid{
+  border-color: red;
 }
+
+
 
 
  textarea {
    width:455px ;
-   height: 270;
-   border: 1px solid red;
+   outline: none;
+  padding: 10px;
    
   
 
  }
-
- textarea:focus {
-  outline-color: green;
-  border: none;
+ textarea:valid {
+   border: 2px solid green;
+   /* border-color:  green; */
  }
 
 
+ textarea:invalid {
+   border-color: red;
+ }
+ /* textarea:invalid{
+   outline-color: red;
+ }
+ textarea:focus,
+ textarea:valid{
+  outline-color: green;
+  border: none;
+ } */
+
+.novalide {
+  
+  border-color: white;
+}
 
 
  button {
@@ -392,13 +412,14 @@ SECTION */
    width: 240px;
    height: 66px;
    padding: 10px;
-   border: 1px solid red;
+   background-color: #fed136;
+   /* border: 1px solid red; */
 
    
  }
 
 
- button:focus {
+ /* button:focus {
   outline-color: green;
   border: none;
- }
+ } */
