@@ -25,7 +25,7 @@ body {
   }
 
   .container {
-    width: 1180px;
+    width: 1110px;
     margin: 0 auto;
   }
   
@@ -93,20 +93,42 @@ a .site-logo:focus {
 }
 /* 
 SECTION */
+.main {
+  padding-bottom: 100px;
+}
 .features {
     margin: 0 auto;
     padding: 0;
     padding-top: 136px;
+    /* height: 618px; */
    
   }
-
+/* montserrat-regular - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'),
+       url('../fonts/montserrat-v13-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v13-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-700 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat Bold'), local('Montserrat-Bold'),
+       url('../fonts/montserrat-v13-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v13-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 
   .features_title {
-    font-family: "Kaushan Script", cursive;
+    font-family: "Montserrat", sans-serif;
     margin: 0 auto;
-    font-size: 24pt;
+    font-size: 40px;
     color: rgba(51, 51, 51, 255);
     text-align: center;
+    font-weight: 700;
   }
 
 
@@ -175,46 +197,37 @@ SECTION */
 
   /* Section-2 */
 
-  .features-team {
+  /* .features-team {
     margin: 0 auto;
-    padding: 0;
-    margin-top: 100px;
+    padding: 0; */
+    /* margin-top: 100px; */
     /* padding-top: 100px; */
-    height: 800px;
+    /* height: 700px;
    background-color: #222222;
-   background-size: cover;
+   background-size: cover; */
    /* background-image: url(..//img/Map\ Image@1X\ \(1\).png); */
-  }
+  /* } */
 
 
-  .features_title_team {
+  /* .features_title_team {
     font-family: "Kaushan Script", cursive;
     margin: 0 auto;
     font-size: 24pt;
     color: rgba(51, 51, 51, 255);
     text-align: center;
-  }
+    padding-top: 100px;
+  } */
   
-  .span_title_team {
+  /* .span_title_team {
     font-family: "Montserrat", sans-serif;
     font-size: 30pt;
     color: rgba(51, 51, 51, 255);
     text-align: center;
     margin-top: 22px;
-  }
+  } */
 
 
-  .images {
-    margin: 0;
-    width: 600px;
-    height: 500px;
-    left: 800px;
-    transform: translateX(800px);
-
-    background-image: url(..//img/Map\ Image@1X\ \(1\).png);
-   
-  }
-
+  
 
   /* .user {
     margin: 0 auto;
@@ -224,21 +237,36 @@ SECTION */
 
 
 
-  .input-form {
-    /* margin: 0 auto; */
+  /* .input-form {
+   
     display: flex;
+    height: 312px;
+    flex-wrap: wrap;
     justify-content: space-between;
-  }
+  } */
 
 
-  .form {
-    flex: 0 0 500px;
+  /* .form {
+   
+    flex: 0 0 396px;
+    
+    padding: 0;
+    margin: 0;
     height: 210px;
     top: 300px;
-    left: 300px;
-    transform: translate(300px, -300px);
-  }
+    left: 250px;
+    transform: translate(250px, -300px);
+  } */
+/* .images {
 
+  top: 260px;
+  left: 690px;
+  
+  transform: translate(690px, 260px)
+  
+  
+  
+} */
 
 
   /* .user-1 {
@@ -249,30 +277,128 @@ SECTION */
   } */
 
 
-  .user {
-    width: 500px;
-    height: 80px;
-  }
+  /* .user {
+    margin: 0;
+    padding: 0;
+    width: 405px;
+    height: 70px;
+  } */
 
 
-  .user input {
+  /* .user input {
     padding: 10px;
   }
-  
-
+   */
+/* 
   textarea {
-    padding: 12px;
-    top: 240px;
+    padding: 10px;
+    top: 210px;
     left: 450px;
-    transform: translate(450px, -240px)
+    transform: translate(450px, -210px)
   }
 .submit {
   margin: 0 auto;
   padding: 20px 100px;
-  top: 200px;
+  top: 1800px;
   left: 300px;
-  transform: translate(300px, -200px)
+  transform: translate(300px, -180px)
   
   
+  
+} */
+
+
+
+.section-input {
+  position: relative;
+  height: 700px;
+  background-color: red;
+  background-size: cover;
+  
+ 
+}
+
+.img {
+  /* margin-left: 730px; */
+  position: absolute;
+  left: 730px;
+}
+
+
+.reg-form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-content: space-between;
+  position: absolute;
+  margin: 0 auto;
+  width: 940px;
+  height: 317px;
+  background-color: green;
+  top: 256px;
+  left: 200px;
+  transform: translate(200px, )
+ }
+.input {
+  width: 455px;
+  height: 55px;
+ 
+  padding: 10px;
+  margin:0;
+ /* margin-right: 30px; */
+ margin-bottom: 30px;
+
+  
+  /* outline: red; */
   
 }
+
+.input:nth-last-child(3n) {
+  margin-bottom: 0;
+}
+
+.input {
+  border: 1px solid red;
+}
+
+.input:focus {
+  outline-color: green;
+  border: none;
+}
+
+
+ textarea {
+   width:455px ;
+   height: 270;
+   border: 1px solid red;
+   
+  
+
+ }
+
+ textarea:focus {
+  outline-color: green;
+  border: none;
+ }
+
+
+
+
+ button {
+   position: absolute;
+   top: 250px;
+   left: 350px;
+   width: 240px;
+   height: 66px;
+   padding: 10px;
+   border: 1px solid red;
+
+   
+ }
+
+
+ button:focus {
+  outline-color: green;
+  border: none;
+ }
