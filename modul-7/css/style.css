@@ -378,12 +378,15 @@ SECTION */
 
 
 .section-input {
-  position: relative;
+  /* position: relative; */
   height: 700px;
   background-color: #222222;
   background-size: cover;
   padding-top: 100px;
-  
+  background-image: url(..//img/Map\ Image@1X\ \(1\).png);
+ background-size: 617px 517px;
+ background-repeat: no-repeat;
+ background-position: 730px 120px;
  
 }
 
@@ -411,14 +414,14 @@ font-weight: 100;
 
 }
 
-.img {
+/* .img {
   
   position: absolute;
   top: 110px;
   left: 730px;
   
   
-}
+} */
 
 
 .reg-form {
@@ -428,15 +431,18 @@ font-weight: 100;
   flex-direction: column;
   /* justify-content: space-between; */
   align-content: space-between;
-  position: absolute;
+  /* position: absolute; */
   margin: 0 auto;
   width: 940px;
   height: 417px;
   /* background-color: #222222; */
   top: 256px;
   left: 200px;
-  transform: translate(200px, )
+  transform: translate(200px, );
+  padding-top: 80px;
  }
+
+
 .input {
   width: 455px;
   height: 55px;
@@ -513,9 +519,11 @@ color: rgba(187, 187, 187, 255);
 
 
  button {
-   position: absolute;
-   top: 250px;
+   /* position: absolute; */
+    top: 50px;
    left: 350px;
+   transform: translate(350px, 50px);
+   padding-top: 30px;
    width: 240px;
    height: 66px;
    padding: 10px;
