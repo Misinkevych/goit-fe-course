@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    min-width: 1110px;
+    /* min-width: 1110px; */
     font-family: "Roboto", sans-serif;
     color: #555252;
     font-size: 14px;
@@ -24,8 +24,9 @@ body {
   }
 
   .container {
-    width: 1110px;
+    width: 320px;
     margin: 0 auto;
+    padding: 0 15px;
   }
 
 
@@ -34,19 +35,20 @@ body {
   .page-header {
     margin: 0 auto;
     padding: 0;
-    height: 700px;
+    height: 540px;
     text-align: center;
     background-image: url(..//img/Vector\ Smart\ Object@1X.png);
-    background-size: cover;
+    background-size: cover 500px;
+
     background-repeat: no-repeat;
     background-image: linear-gradient rgba();
   }
 
   .page-nav {
  
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
     min-height: 100px;
     
     /* color: #fed44c; */
@@ -71,9 +73,9 @@ a .site-logo:focus {
 
 
 .site-navigation {
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    min-width: 200px;
+    min-width: 200px; */
     margin: 0;
     padding: 0;
     font-size: 14px;
@@ -126,7 +128,7 @@ a .site-logo:focus {
     margin: 0;
     padding-top: 140px;
     /* padding-bottom: 40px; */
-    font-size: 52px;
+    font-size: 35px;
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
     color: red;
@@ -142,11 +144,11 @@ a .site-logo:focus {
 
 
   .heder-work {
-    margin: 0;
+    /* margin: 0; */
    /* padding-top: 40px; */
    font-family: "Roboto", sans-serif;
    color: #f7f1ee;
-   font-size: 24px;
+   font-size: 20px;
    font-weight: normal;
   }
 
@@ -192,11 +194,11 @@ a .site-logo:focus {
 
 
   .features-list {
-    display: flex;
-    /* width: 940px; */
+    /* display: flex; */
+    
     margin: 0 auto;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    /* flex-wrap: wrap;
+    justify-content: space-between; */
     list-style: none;
     margin: 0;
     padding: 0;
@@ -205,9 +207,11 @@ a .site-logo:focus {
 
 
   .features-list-item {
-    flex: 0 0 220px;
-    padding: 0 38px;
-    
+    width: 29 0px;
+    /* flex: 0 0 220px; */
+    /* padding: 0 38px; */
+    text-align: center;
+    /* margin-bottom: 20px; */
   }
 
   .border-list {
@@ -340,8 +344,8 @@ a .site-logo:focus {
   display: block;
     margin: 0 auto;
     padding: 10px 20px;
-    width: 180px;
-    height: 40px;
+    /* width: 180px;
+    height: 40px; */
     /* border-color: #ff4e50; */
     /* background-color: #ff4e50; */
   border-radius: 35px;

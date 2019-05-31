@@ -1,0 +1,53 @@
+@media (max-width: 599px) {
+    .features-list-item:not(:last-child) {
+        margin-bottom: 20px;
+      }  
+
+      .site-navigation {
+          margin-bottom: 200px;
+      }
+      
+
+      
+
+
+    
+
+
+      .site-navigation {
+          position: relative;
+          margin: 0 auto;
+          
+
+
+      }
+
+      .site {
+          position: absolute;
+          display: inline-block;
+      }
+
+
+      .site-navigation li  {
+          width: 145px;
+      }
+
+      .site-logo {
+         position: absolute;
+         top: 50px;
+         text-align: center;
+         left: 10px;
+         transform: translate(55px, 50px);
+    }
+
+    .heder-work {
+        width: 290px;
+        margin: 0 auto;
+    }
+  .button {
+      width: 280px;
+      height: 40px;
+      
+  }
+
+  }
