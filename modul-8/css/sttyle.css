@@ -35,11 +35,10 @@ body {
   .page-header {
     margin: 0 auto;
     padding: 0;
-    height: 540px;
+    /* height: 540px; */
     text-align: center;
     background-image: url(..//img/Vector\ Smart\ Object@1X.png);
-    background-size: cover 500px;
-
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: linear-gradient rgba();
   }
@@ -126,7 +125,7 @@ a .site-logo:focus {
   .heder-title {
     
     margin: 0;
-    padding-top: 140px;
+    /* padding-top: 140px; */
     /* padding-bottom: 40px; */
     font-size: 35px;
     font-weight: 700;
@@ -207,7 +206,7 @@ a .site-logo:focus {
 
 
   .features-list-item {
-    width: 29 0px;
+    width: 290px;
     /* flex: 0 0 220px; */
     /* padding: 0 38px; */
     text-align: center;

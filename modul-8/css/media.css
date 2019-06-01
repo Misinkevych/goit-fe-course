@@ -1,53 +1,135 @@
 @media (max-width: 599px) {
-    .features-list-item:not(:last-child) {
-        margin-bottom: 20px;
-      }  
+  .features-list-item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .site-navigation {
+    margin-bottom: 200px;
+  }
+
+  .site-navigation {
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .site {
+    position: absolute;
+    display: inline-block;
+  }
+
+  .site-navigation li {
+    width: 145px;
+  }
+
+  .site-logo {
+    position: absolute;
+    top: 50px;
+    text-align: center;
+    left: 10px;
+    transform: translate(55px, 50px);
+  }
+
+  .heder-work {
+    width: 290px;
+    margin: 0 auto;
+  }
+  .button {
+    width: 280px;
+    height: 40px;
+    padding-bottom: 20px;
+  }
+}
+
+
+
+@media (min-width: 600px) {
+    .container {
+        width: 600px;
+      }
+
+
+      .page-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+
 
       .site-navigation {
-          margin-bottom: 200px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0;
       }
-      
 
-      
+      .heder-title {
+        /* width: 500px; */
+        font-size: 52px;
+        text-align: center;
+        
+
+      }
+
+      .heder-p {
+        /* font-size: 24px; */
+      }
 
 
+      .heder-work {
+        font-size: 24px;
+      }
+
+
+
+
+
+
+      .features-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+    
+      .features-list-item {
+        flex: 0 0 270px;
+      }
+
+
+      .button {
+        width: 193px;
+        height: 40px;
+        padding-bottom: 20px;
+      }
     
 
 
-      .site-navigation {
-          position: relative;
-          margin: 0 auto;
-          
 
 
-      }
-
-      .site {
-          position: absolute;
-          display: inline-block;
-      }
+}
 
 
-      .site-navigation li  {
-          width: 145px;
-      }
 
-      .site-logo {
-         position: absolute;
-         top: 50px;
-         text-align: center;
-         left: 10px;
-         transform: translate(55px, 50px);
-    }
 
-    .heder-work {
-        width: 290px;
-        margin: 0 auto;
-    }
-  .button {
-      width: 280px;
-      height: 40px;
-      
+
+@media (min-width: 1170px) {
+
+
+  .container {
+    width: 1170px;
   }
 
+
+  .page-nav {
+    flex-direction: row;
+    justify-content: space-between;
   }
+
+
+
+  .site-navigation {
+    flex: 0 0 600px;
+  }
+
+
+
+}
