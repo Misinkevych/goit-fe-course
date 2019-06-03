@@ -35,9 +35,9 @@ body {
   .page-header {
     margin: 0 auto;
     padding: 0;
-    /* height: 540px; */
+    height: 540px;
     text-align: center;
-    background-image: url(..//img/Vector\ Smart\ Object@1X.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url(..//img/Vector\ Smart\ Object@1X.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-image: linear-gradient rgba();
@@ -130,7 +130,7 @@ a .site-logo:focus {
     font-size: 35px;
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
-    color: red;
+    color: #ffffff;
     
 
   }
