@@ -1,0 +1,13 @@
+.page-header {
+  margin: 0 auto;
+  padding: 0;
+  height: 1000px;
+  text-align: center;
+  
+  background-image: linear-gradient(
+      rgba(255, 94, 98, 0.7),
+      rgba(255, 155, 102, 0.9)
+    ), url('..//images/orel-min.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
