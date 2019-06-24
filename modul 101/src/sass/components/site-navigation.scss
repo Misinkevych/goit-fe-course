@@ -1,0 +1,42 @@
+.site-navigation {
+
+  display: flex;
+  justify-content: space-between;
+  font-size: $main-text-size;
+  font-family: $main-font-monts;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.site-navigation__link {
+ 
+  color: $primary-white-color;
+  font-weight: 700;
+  text-transform: uppercase;
+  
+  &:hover {
+    color: $primary-dark-color;
+  }
+}
+
+.site::after {
+  display: block;
+  content: '';
+  height: 3px;
+  background-color: $primary-dark-color;
+  transform: scaleX(0);
+  transition: transform 200ms ease-in-out;
+}
+
+.site:hover::after {
+  transform: scaleX(1);
+}
+
+// .site-navigation__link:hover {
+//   color: $primary-dark-color;
+// }
+
+.site-navigation__img {
+  padding: 6px;
+  cursor: pointer;
+}
